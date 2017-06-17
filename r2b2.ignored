@@ -9,6 +9,7 @@ move_base
 move_slow_and_clear
 navfn
 navigation
+nav_core
 robot_pose_ekf
 rotate_recovery
 voxel_grid
