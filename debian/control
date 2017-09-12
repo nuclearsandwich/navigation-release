@@ -1,0 +1,13 @@
+Source: ros-r2b3-amcl
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-r2b3-ament-cmake-auto, ros-r2b3-ament-cmake-ros, ros-r2b3-geometry-msgs, ros-r2b3-map-server, ros-r2b3-nav-msgs, ros-r2b3-rclcpp, ros-r2b3-rcutils, ros-r2b3-sensor-msgs, ros-r2b3-std-srvs, ros-r2b3-tf2, ros-r2b3-tf2-geometry-msgs, ros-r2b3-tf2-msgs, ros-r2b3-tf2-ros, ros-r2b3-ros-workspace
+Homepage: http://wiki.ros.org/amcl
+Standards-Version: 3.9.2
+
+Package: ros-r2b3-amcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-r2b3-geometry-msgs, ros-r2b3-nav-msgs, ros-r2b3-rclcpp, ros-r2b3-rcutils, ros-r2b3-sensor-msgs, ros-r2b3-std-srvs, ros-r2b3-tf2, ros-r2b3-tf2-geometry-msgs, ros-r2b3-tf2-msgs, ros-r2b3-tf2-ros, ros-r2b3-ros-workspace
+Description: amcl is a probabilistic localization system for a robot moving in 2D.
+ It implements the adaptive (or KLD-sampling) Monte Carlo localization approach (as described by Dieter Fox), which uses a particle filter to track the pose of a robot against a known map. This node is derived, with thanks, from Andrew Howard's excellent 'amcl' Player driver.
