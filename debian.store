@@ -1,1 +1,1 @@
-{"trimbase": "", "base": "e1bbc85", "previous": "38103bb", "parent": "debian/ardent/map_server", "trim": ""}
+{"parent": "debian/ardent/map_server", "base": "be065a3", "trim": "", "previous": "e356a7f", "trimbase": ""}
