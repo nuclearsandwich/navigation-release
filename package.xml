@@ -23,6 +23,7 @@
     <build_depend>sdl-image</build_depend>
     <build_depend>tf2</build_depend>
     <build_depend>yaml-cpp</build_depend>
+    <build_depend>boost</build_depend><!-- yaml-cpp upstream requires boost but doesn't declare the dependency. -->
 
     <build_export_depend>nav_msgs</build_export_depend>
 
@@ -32,6 +33,7 @@
     <exec_depend>sdl-image</exec_depend>
     <exec_depend>tf2</exec_depend>
     <exec_depend>yaml-cpp</exec_depend>
+    <exec_depend>boost</exec_depend><!-- yaml-cpp upstream requires boost but doesn't declare the dependency. -->
 
     <test_depend>ament_cmake_gtest</test_depend>
     <test_depend>ament_cmake_pytest</test_depend>
