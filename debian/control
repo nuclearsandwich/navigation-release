@@ -1,0 +1,13 @@
+Source: ros-bouncy-amcl
+Section: misc
+Priority: extra
+Maintainer: D. Hood <dhood@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake-auto, ros-bouncy-ament-cmake-ros, ros-bouncy-geometry-msgs, ros-bouncy-map-server, ros-bouncy-nav-msgs, ros-bouncy-rclcpp, ros-bouncy-rcutils, ros-bouncy-sensor-msgs, ros-bouncy-std-srvs, ros-bouncy-tf2, ros-bouncy-tf2-geometry-msgs, ros-bouncy-tf2-msgs, ros-bouncy-tf2-ros, ros-bouncy-ros-workspace
+Homepage: http://wiki.ros.org/amcl
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-amcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-geometry-msgs, ros-bouncy-nav-msgs, ros-bouncy-rclcpp, ros-bouncy-rcutils, ros-bouncy-sensor-msgs, ros-bouncy-std-srvs, ros-bouncy-tf2, ros-bouncy-tf2-geometry-msgs, ros-bouncy-tf2-msgs, ros-bouncy-tf2-ros, ros-bouncy-ros-workspace
+Description: amcl is a probabilistic localization system for a robot moving in 2D.
+ It implements the adaptive (or KLD-sampling) Monte Carlo localization approach (as described by Dieter Fox), which uses a particle filter to track the pose of a robot against a known map. This node is derived, with thanks, from Andrew Howard's excellent 'amcl' Player driver.
